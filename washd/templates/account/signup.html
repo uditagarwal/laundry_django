@@ -5,7 +5,6 @@
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
-{% block inner %}
 {% block content %}
 <div class="main-container">
   <section class="cover fullscreen">
@@ -13,14 +12,21 @@
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
           <div class="feature bordered text-center register">
+            {% block inner %}
             <h4 class="uppercase">Register</h4>
-            <form class="text-left" action="user-profile.html">
+            <form class="text-left" id="signup_form" method="post" action="{% url 'account_signup' %}">
+              {% csrf_token %}
+              {{ form|crispy }}
+              {% if redirect_field_value %}
+              <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+              {% endif %}
               <input type="text" name="name" placeholder="Username"/>
               <input type="text" name="email" placeholder="Email Address"/>
               <input type="password" placeholder="Password"/>
               <input type="password" placeholder="Confirm Password"/>
               <input type="submit" value="Register"/>
             </form>
+            {% endblock %}
             <p class="mb0">By signing up, you agree to our
               <a href="#">Terms Of Use</a>
             </p>
@@ -33,6 +39,9 @@
   </section>
 </div>
 {% endblock content %}
+
+<!--
+ block inner %}
 
 <h1>{% trans "Sign Up" %}</h1>
 
@@ -47,5 +56,6 @@
   <button class="btn btn-primary" type="submit">{% trans "Sign Up" %} &raquo;</button>
 </form>
 
-{% endblock %}
+ endblock %}
 
+-->

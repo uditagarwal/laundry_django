@@ -1,11 +1,12 @@
+{% load staticfiles i18n %}
 <div class="nav-container">
   <a id="top"></a>
-  <nav class="absolute transparent">
+  <nav>
     <div class="nav-bar">
       <div class="module left">
-        <a href="index.html">
-          <img class="logo logo-light" alt="Folded" src="img/logo-light.png"/>
-          <img class="logo logo-dark" alt="Folded" src="img/logo-dark.png"/>
+        <a href="/">
+          <img class="logo logo-light" alt="Folded" src="{% static 'img/logo-light.png' %}"/>
+          <img class="logo logo-dark" alt="Folded" src="{% static 'img/logo-dark.png' %}"/>
         </a>
       </div>
       <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -20,17 +21,17 @@
                 </a>
             </li> -->
             <li>
-              <a href="help.html">
+              <a href="/help">
                 Help
               </a>
             </li>
             <li>
-              <a href="login.html">
+              <a href="/login">
                 Sign In
               </a>
             </li>
             <li>
-              <a class="btn btn-sm home-register" href="register.html">Register</a>
+              <a class="btn btn-sm home-register" href="/signup">Register</a>
             </li>
           </ul>
         </div>

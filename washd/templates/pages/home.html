@@ -1,1 +1,368 @@
 {% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block title %}Folded - Pooping the Juice Since '93{% endblock title %}
+
+{% block content %}
+<div class="main-container home-container">
+  <section class="bg-primary pb0 home-hero">
+    <div class="container pt80">
+      <div class="row mb24 mb-xs-0">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <h1 class="large">Dirty laundry? Forget about it.</h1>
+          <p class="lead">
+            There are lots of apps out there, but not many that will do your
+            <br>laundry for you. That’s where Folded comes in.
+          </p>
+        </div>
+      </div>
+      <!--end of row-->
+      <div class="row mb80 mb-xs-24">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly."
+                data-error="Please fill all fields correctly.">
+            <input type="text" name="zipcode" class="transparent validate-email validate-required  signup-email-field"
+                   placeholder="Zip Code">
+            <button type="submit" class="btn-white">Get Started</button>
+            <iframe
+              srcdoc="<form action=&quot;http://mrareco.createsend.com/t/d/s/dyikkh/&quot; method=&quot;post&quot; id=&quot;subForm&quot;>     <p>         <label for=&quot;fieldName&quot;>Name</label><br />         <input id=&quot;fieldName&quot; name=&quot;cm-name&quot; type=&quot;text&quot; />     </p>     <p>         <label for=&quot;fieldEmail&quot;>Email</label><br />         <input id=&quot;fieldEmail&quot; name=&quot;cm-dyikkh-dyikkh&quot; type=&quot;email&quot; required />     </p>     <p>         <button type=&quot;submit&quot;>Subscribe</button>     </p> </form>"
+              class="mail-list-form">
+            </iframe>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--end of container-->
+  </section>
+  <section class="image-square left bg-secondary pb-sm-64">
+    <div class="col-md-6 image">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="static/img/home17.jpg"/>
+      </div>
+    </div>
+    <div class="col-md-6 col-md-offset-1 content">
+      <h3>Stay in the loop, track your laundry.</h3>
+      <div class="feature feature-3">
+        <div class="left">
+          <i class="ti-alarm-clock icon-sm"></i>
+        </div>
+        <div class="right">
+          <h5 class="uppercase mb16">Quick Turnaround</h5>
+          <p>
+            All orders can be available within 36 hours or less. Gauranteed next day deliver or your money back.
+          </p>
+        </div>
+      </div>
+      <!--end of feature-->
+      <div class="feature feature-3">
+        <div class="left">
+          <i class="ti-layers icon-sm"></i>
+        </div>
+        <div class="right">
+          <h5 class="uppercase mb16">Incredibly Convenient</h5>
+          <p>
+            We are available 7 days a week including nights and weekends! Receive a reusable garment bag to keep and
+            refill for your next order.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="mb16">Our process is simple.</h2>
+          <p class="lead mb64">
+
+          </p>
+        </div>
+      </div>
+      <!--end of row-->
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="feature feature-1 boxed">
+            <div class="text-center">
+              <i class="ti-package icon"></i>
+              <h5 class="uppercase">Pickup</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, lectus at mattis blandit, quam
+              turpis varius nulla, quis fringilla elit urna.
+            </p>
+          </div>
+          <!--end of feature-->
+        </div>
+        <div class="col-sm-4">
+          <div class="feature feature-1 boxed">
+            <div class="text-center">
+              <i class="ti-infinite icon"></i>
+              <h5 class="uppercase">The Dirty Work</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, lectus at mattis blandit, quam
+              turpis varius nulla, quis fringilla elit urna.
+            </p>
+          </div>
+          <!--end of feature-->
+        </div>
+        <div class="col-sm-4">
+          <div class="feature feature-1 boxed">
+            <div class="text-center">
+              <i class="ti-heart icon"></i>
+              <h5 class="uppercase">Delivery</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, lectus at mattis blandit, quam
+              turpis varius nulla, quis fringilla elit urna.
+            </p>
+          </div>
+          <!--end of feature-->
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+  <section class="image-square right bg-secondary pb-sm-64">
+    <div class="col-md-6 image">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="static/img/home15.jpg"/>
+      </div>
+    </div>
+    <div class="col-md-6 content">
+      <h3>Stay in the loop, track your laundry.</h3>
+      <div class="feature feature-3">
+        <div class="left">
+          <i class="ti-alarm-clock icon-sm"></i>
+        </div>
+        <div class="right">
+          <h5 class="uppercase mb16">Quick Turnaround</h5>
+          <p>
+            All orders can be available within 36 hours or less. Gauranteed next day deliver or your money back.
+          </p>
+        </div>
+      </div>
+      <!--end of feature-->
+      <div class="feature feature-3">
+        <div class="left">
+          <i class="ti-layers icon-sm"></i>
+        </div>
+        <div class="right">
+          <h5 class="uppercase mb16">Incredibly Convenient</h5>
+          <p>
+            We are available 7 days a week including nights and weekends! Receive a reusable garment bag to keep and
+            refill for your next order.
+          </p>
+        </div>
+      </div>
+      <!-- <h3>Doing laundry has never been so effortless.</h3>
+      <p class="mb0">
+          Setup your account in seconds. Schedule a convenient pickup time or request pickup now. Your Folded driver arrives promptly - it's that simple!
+      </p> -->
+    </div>
+  </section>
+  <!-- <section class="bg-dark pt120 pb120 pt-xs-40 pb-xs-40">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-4 col-md-offset-2">
+                  <div class="feature feature-3 mb64 mb-xs-24">
+                      <div class="left">
+                          <i class="ti-signal icon-sm"></i>
+                      </div>
+                      <div class="right">
+                          <h4 class="mb16">Ready anywhere, anytime.</h4>
+                          <p>
+                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <div class="feature feature-3 mb64 mb-xs-24">
+                      <div class="left">
+                          <i class="ti-ruler-alt icon-sm"></i>
+                      </div>
+                      <div class="right">
+                          <h4 class="mb16">Track your belongings.</h4>
+                          <p>
+                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-md-offset-2">
+                  <div class="feature feature-3 mb-xs-24">
+                      <div class="left">
+                          <i class="ti-layers icon-sm"></i>
+                      </div>
+                      <div class="right">
+                          <h4 class="mb16">No cash, no tip, no hassle.</h4>
+                          <p>
+                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <div class="feature feature-3">
+                      <div class="left">
+                          <i class="ti-heart icon-sm"></i>
+                      </div>
+                      <div class="right">
+                          <h4 class="mb16">You rate, we listen.</h4>
+                          <p>
+                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
+  <!-- <section class="bg-primary">
+      <div class="container">
+          <div class="row mb64 mb-xs-24">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                  <h3 class="mb40 mb-xs-24">Doing your laundry has never been this easy.</h3>
+                  <p class="lead">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
+                  </p>
+              </div>
+          </div>
+
+          <div class="row mb48 mb-xs-24">
+              <div class="col-sm-8 col-sm-offset-2">
+                  <div class="local-video-container mb40">
+                      <div class="background-image-holder">
+                          <img alt="Background Image" class="background-image" src="img/capital3.jpg">
+                      </div>
+                      <video controls="">
+                          <source src="video/video.webm" type="video/webm">
+                              <source src="video/video.mp4" type="video/mp4">
+                                  <source src="video/video.ogv" type="video/ogg">
+                      </video>
+                      <div class="play-button dark"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12 text-center spread-children-large">
+                  <img alt="pic" class="image-xxs mb-xs-8 fade-half" src="img/c1.png" />
+                  <img alt="pic" class="image-xxs mb-xs-8 fade-half" src="img/c2.png" />
+                  <img alt="pic" class="image-xxs mb-xs-8 fade-half" src="img/c3.png" />
+                  <img alt="pic" class="image-xxs mb-xs-8 fade-half" src="img/c4.png" />
+              </div>
+          </div>
+      </div>
+  </section> -->
+  <!-- <section class="image-bg overlay parallax">
+      <div class="background-image-holder">
+          <img alt="image" class="background-image" src="img/app2.jpg" />
+      </div>
+      <div class="container">
+          <div class="row mb40 mb-xs-24">
+              <div class="col-sm-12 text-center spread-children">
+                  <img class="image-xs" alt="Pic" src="img/avatar1.png" />
+                  <img class="image-xs" alt="Pic" src="img/avatar2.png" />
+                  <img class="image-xs" alt="Pic" src="img/avatar3.png" />
+              </div>
+          </div>
+          <div class="row mb16 mb-xs-0">
+              <div class="col-sm-12 text-center">
+                  <h3>People just like you are already loving Folded</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                  <div class="text-slider slider-arrow-controls text-center relative">
+                      <ul class="slides">
+                          <li>
+                              <p class="lead">Great stuff! Flawless execution from start to finish. This is a great service and I can promise you I'll be using it again, as well as passing this onto anyone I know that would like to use it. Customer for life.</p>
+                              <div class="quote-author">
+                                  <h6 class="uppercase mb0">Anthony</h6>
+                                  <span>Themeforest Customer</span>
+                              </div>
+                          </li>
+                          <li>
+                              <p class="lead">Such an easy app to use, every user friendly. Drivers communicate with you and are always on time. Company keeps you updated on your order and provides great dry cleaning service. It's perfect for people on the go!</p>
+                              <div class="quote-author">
+                                  <h6 class="uppercase mb0">Rick Dempsey</h6>
+                                  <span>Themeforest Customer</span>
+                              </div>
+                          </li>
+                          <li>
+                              <p class="lead">I can't believe how easy the service is and the app does exactly what it's supposed to do. Super-impressed and happy to have found Folded!!</p>
+                              <div class="quote-author">
+                                  <h6 class="uppercase mb0">Gill Sans</h6>
+                                  <span>Themeforest Customer</span>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
+  <!-- <section class="bg-secondary">
+      <div class="container">
+          <div class="row mb40 mb-xs-0">
+              <div class="col-sm-12 text-center">
+                  <h4 class="uppercase">A Design To Be Proud Of</h4>
+              </div>
+          </div>
+           end of row
+          <div class="row">
+              <div class="col-sm-6 col-md-5 text-right text-center-xs">
+                  <h1 class="large mb8">10,000+</h1>
+                  <h6 class="uppercase">Customers using our templates</h6>
+              </div>
+              <div class="col-md-2 text-center hidden-sm hidden-xs">
+                  <i class="ti-infinite icon icon-lg color-primary mt8 mt-xs-0"></i>
+              </div>
+              <div class="col-sm-6 col-md-5 text-center-xs">
+                  <h1 class="large mb8">Limitless</h1>
+                  <h6 class="uppercase">Layout potential using Foundry</h6>
+              </div>
+          </div>
+          end of row
+      </div>
+      end of container
+  </section> -->
+  <section class="bg-primary">
+    <div class="container home-getstarted">
+      <div class="row mb64 mb-xs-24">
+        <div class="col-sm-12 text-center">
+          <h3>Start spending time doing what you love, get started today.</h3>
+        </div>
+      </div>
+      <!--end of row-->
+      <div class="row mb40 mb-xs-24">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly."
+                data-error="Please fill all fields correctly.">
+            <input type="text" name="email" class="mb0 transparent validate-email validate-required  signup-email-field"
+                   placeholder="Email Address"/>
+            <button type="submit" class="btn-white mb0">Get Started</button>
+            <iframe
+              srcdoc="<!-- Begin MailChimp Signup Form --><link href=&quot;https://cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;><style type=&quot;text/css&quot;>	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style><div id=&quot;mc_embed_signup&quot;><form action=&quot;//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=94d040322a&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>    <div id=&quot;mc_embed_signup_scroll&quot;>	<h2>Subscribe to our mailing list</h2><div class=&quot;indicates-required&quot;><span class=&quot;asterisk&quot;>*</span> indicates required</div><div class=&quot;mc-field-group&quot;>	<label for=&quot;mce-EMAIL&quot;>Email Address  <span class=&quot;asterisk&quot;>*</span></label>	<input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot;></div><div class=&quot;mc-field-group&quot;>	<label for=&quot;mce-FNAME&quot;>First Name </label>	<input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot;></div><div class=&quot;mc-field-group&quot;>	<label for=&quot;mce-LNAME&quot;>Last Name </label>	<input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot;></div>	<div id=&quot;mce-responses&quot; class=&quot;clear&quot;>		<div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;></div>		<div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;></div>	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->    <div style=&quot;position: absolute; left: -5000px;&quot;><input type=&quot;text&quot; name=&quot;b_77142ece814d3cff52058a51f_94d040322a&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>    <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>    </div></form></div><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script><!--End mc_embed_signup-->"
+              class="mail-list-form">
+            </iframe>
+          </form>
+        </div>
+      </div>
+      <!--end of row-->
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h5 class="fade-half">
+            <strong>Free 30 day trial - No credit card required.</strong>
+          </h5>
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+</div>
+{% endblock content %}

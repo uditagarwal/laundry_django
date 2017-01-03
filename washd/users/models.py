@@ -28,6 +28,7 @@ class User(AbstractUser):
     def get_absolute_url(self):
         return reverse('users:detail', kwargs={'username': self.username})
 
+
 class Addresses(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     address = models.CharField(max_length=200, null=True)
@@ -35,6 +36,7 @@ class Addresses(models.Model):
     state = models.TextField(null=True)
     zipCode = models.TextField(null=True)
     locationName = models.CharField(max_length=50, null=True)
+
 
 class PaymentAccount(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

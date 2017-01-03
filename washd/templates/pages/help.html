@@ -1,0 +1,250 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block title %}Folded - Help{% endblock title %}
+
+{% block content %}
+        <div class="main-container">
+            <section class="page-title page-title-4 bg-secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="uppercase mb0">Support</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <input type="text" placeholder="How can we help?" style="display: inline-block; float; left; width: 77%">
+                            <input type="submit" placeholder="->" style="display: inline-block; width: 20%" value="Search">
+                            <!-- <ol class="breadcrumb breadcrumb-2">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                </li>
+                                <li class="active">FAQ</li>
+                            </ol> -->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="mb16">Common questions about Folded</h4>
+                            <p class="lead mb64">
+                                If you can't find an answer here, please send an email to
+                                <a href="mailto:support@foldmylaundry.com">support@foldmylaundry.com</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="tabbed-content button-tabs vertical">
+                            <ul class="tabs">
+                                <li class="active">
+                                    <div class="tab-title">
+                                        <span>Account</span>
+                                    </div>
+                                    <div class="tab-content help-content">
+                                        <h5 class="uppercase">Account</h5>
+                                        <hr>
+                                        <ul class="accordion accordion-2 help-accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Update my account information</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Reset my password</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">My account is suspended</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">My email or phone number is in use</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">I'm not receiving emails from Uber</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">I can't change my email or mobile number</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">I think my account is compromised</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">I'd like to delete my account</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <!--end of accordion-->
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tab-title">
+                                        <span>Payment</span>
+                                    </div>
+                                    <div class="tab-content help-content">
+                                        <h5 class="uppercase">Payment</h5>
+                                        <hr>
+                                        <ul class="accordion accordion-2 help-accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Choosing a payment method</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Verify payment method</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Choosing a profile</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Update payment information</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">I was charged incorrectly</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Identify an unknown charge</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">Settle an outstanding balance</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">About recurring charges</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="title">
+                                                    <h4 class="inline-block mb0">About authorization holds</h4>
+                                                </div>
+                                                <div class="content">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <!--end of accordion-->
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of button tabs-->
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+        </div>
+{% endblock content %}
